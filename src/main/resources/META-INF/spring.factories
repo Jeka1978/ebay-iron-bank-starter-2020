@@ -1,0 +1,8 @@
+
+
+
+org.springframework.boot.env.EnvironmentPostProcessor = com.ebay.ironbankrulesstarter.ProfileAutoDetectorEnvironmentPostProcessor
+
+org.springframework.context.ApplicationContextInitializer = com.ebay.ironbankrulesstarter.ProfileSentinelApplicationContextInitializer
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration = com.ebay.ironbankrulesstarter.IronBankExceptionHandlingAspectConf
