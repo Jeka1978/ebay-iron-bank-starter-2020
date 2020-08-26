@@ -39,7 +39,7 @@ public class IronBankExceptionHandlingAspectConf {
 
     @Bean
     @ConditionOnProd
-//    @ConditionalOnProperty("raven.target-package")
+//    @ConditionalOnProperty("raven.target-package")  //todo make it two conditions
     @ConditionalOnProperty("raven.destination")
     public DefaultPointcutAdvisor advisor(CustomPointcut customPointcut, RavenSenderMethodInterceptor ravenSenderMethodInterceptor) {
 
