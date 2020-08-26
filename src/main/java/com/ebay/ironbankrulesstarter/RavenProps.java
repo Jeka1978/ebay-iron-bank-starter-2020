@@ -13,4 +13,5 @@ import org.springframework.stereotype.Component;
 public class RavenProps {
     private String destination;
     private String targetPackage;
+    private String legacyPackagesToScan;
 }
